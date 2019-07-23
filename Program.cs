@@ -18,7 +18,14 @@ namespace teste
                 }
             }
             else{
-                Console.WriteLine("Are you member of communit LGBTQ+ ?"); 
+                Console.WriteLine("Are you member of communit LGBTQ+ ? S/N");
+                string r = Console.ReadLine();
+
+                if(r == "S" || r == "N"){
+                    if(r == "S"){
+                        Console.WriteLine("Ok, you're very welcome here");
+                    }
+                }
             }
         }
     }
